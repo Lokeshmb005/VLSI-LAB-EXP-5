@@ -16,10 +16,11 @@ STEP:6 Click “run simulation” in the navigator window and click “Run behav
 STEP:7 Verify the output in the simulation window.
 
 Logic Diagram:
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
 
 VERILOG CODE:
-
+```
 module fsm_moore(clk, rst, x, z);
 input clk, rst, x;
 output z;
@@ -51,10 +52,12 @@ else
 present_state<=next_state;
 assign z=(present_state==s3);
 endmodule
-
+```
 OUTPUT:
+
 ![lokesh](https://github.com/Lokeshmb005/VLSI-LAB-EXP-5/assets/159941167/23d1dabc-25e6-4f85-96e8-18a606dfb506)
 
 
 RESULT:
+
   Thus the simulation and implementation of Finite State MOORE Machine is is done and the outputs are verified successfully.
